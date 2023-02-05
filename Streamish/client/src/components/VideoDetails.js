@@ -21,11 +21,11 @@ const VideoDetails = () => {
       <div className="row justify-content-center">
         <div className="col-sm-12 col-lg-6">
           <Video video={video} />
-          <ListGroup>
+          {/* <ListGroup>
             {video.comments.map((c) => (
               <ListGroupItem>{c.message}</ListGroupItem>
             ))}
-          </ListGroup>
+          </ListGroup> */}
         </div>
       </div>
     </div>
